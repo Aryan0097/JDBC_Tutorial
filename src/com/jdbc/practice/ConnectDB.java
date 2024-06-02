@@ -16,7 +16,7 @@ public class ConnectDB {
 //		String url="jdbc:mysql://localhost:3306/new";
 ////		String db="new";
 //		String username="root";
-//		String password="dbms";
+//		String password="password";
 //		
 //	//2.create connection
 //		con=DriverManager.getConnection(url,username,password);
@@ -47,7 +47,7 @@ public class ConnectDB {
 
 			String url="jdbc:mysql://localhost:3306/new";
 			String username="root";
-			String password="dbms";
+			String password="password";
 			
 			if(con==null) {
 				con=DriverManager.getConnection(url,username,password);
