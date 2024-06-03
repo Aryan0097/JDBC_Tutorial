@@ -28,7 +28,8 @@ public class ConnectDB {
 //			
 //	//4.create statement
 //			Statement stmt=con.createStatement();
-//			stmt.executeUpdate(query);
+//			ResultSet rs=stmt.executeUpdate(query);
+//			rs.next();    --> because move pointer in table to first row		
 //			System.out.println("Query Executed");
 //			con.close();
 //			
